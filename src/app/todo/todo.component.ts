@@ -14,7 +14,6 @@ export class TodoComponent implements OnInit {
   todos: Todo[];
   todo: Todo = new Todo();
   description: string;
-  author: string;
 
   ngOnInit(): void { }
 
